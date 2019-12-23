@@ -1,0 +1,707 @@
+body {
+font-family: 'Montserrat', sans-serif;
+padding: 0;
+margin: 0 auto;
+width: 1350px;
+min-width: 500px;
+height: 100%;
+background-color: #fff;
+}
+
+.clearfix: after	{
+content:"";
+display: table;
+width: 100%;
+clear: both;
+}
+
+div	{
+box-sizing: border-box;
+}
+
+.container {
+position: absolute;
+width: 100%;
+max-width: 1360px;
+margin: 0 auto;
+}	
+
+ /*Header*/
+
+
+header {
+width: 100%;
+min-width: 50%;
+height: 90%;
+background-size: 100%;
+background: url("../Caucasianhoney/img/fon1.jpg")  no-repeat center top;
+margin: 0 auto; 
+padding-bottom: 50px;
+}
+ 
+.container1  { 
+width: 100%;
+height: 215px;
+margin: 0 auto;
+}
+
+/*Header_Logo*/
+
+.header_logo	{ 
+float: left;
+width: 350px;
+height: 140px;
+margin-left: 100px;
+margin-top: 50px;
+}
+
+
+.header_logo img	{
+width: 40%;
+border-radius: 30px 30px;
+border: 2px	solid #FFEBCD ;
+}
+
+/*Header_Nav*/
+
+nav	{
+width: 50%;
+height: 100px;
+float: right;
+margin-top: 20px;
+padding-right: 40px;
+}
+
+.nav	{
+display: block;
+}
+
+.navmenu	{
+}
+
+.menu	{
+display: block;
+padding-right: 0;
+}
+
+.menu li {
+float: left;
+display: block;
+margin-right: 30px;
+font-weight: 700;
+}
+
+.menu a {
+display: block;
+width: 100px;
+font-family: "Montserrat", sans-serif;
+font-size:	14px;
+float: left;
+color: #f5efe3;
+text-decoration: none;
+text-transform: none;
+line-height: 1.1;
+text-align: justify;
+transition: opacity .3s linear;
+}
+.menu a:hover {
+transition: all .5s;
+color: #D2691E;
+opacity: 1;
+}
+
+.menu a:first-child	{
+margin-left:0;
+
+}
+
+/*Header_h1*/
+
+.title {
+width: auto;
+margin: 0 auto;
+}
+	
+.titles_first	{
+padding-top: 40px;
+margin-left: 130px;
+text-align: center;
+text-transform:none;
+}
+
+h1	{
+text-shadow: 2px 2px 4px #fff4d2;
+width: 100%;
+font-family: "Montserrat", sans-serif; 
+font-size: 40px;
+color: #333;
+}
+
+.button	{
+background: #FFEBCD;
+color: #d59100;
+border: 4px solid #FFEBCD;
+border-radius: 50px;
+display: block;
+width: 17%;
+padding:20px 0;
+margin-left: 570px;
+font-size: 15px;
+margin-top: 100px;
+margin-bottom: 100px;
+font-weight: 700;
+text-decoration: none;
+text-align: center;
+box-shadow: 5px 5px 10px #f09e20;
+}
+
+.button a {
+color:#f09e20;
+text-decoration: none;
+}
+
+.button a:hover {
+color: #D2691E;
+text-decoration: none;	
+}
+
+.button p {
+width: 100%;
+height: 50px;
+margin:0;
+}
+
+/*Container*/
+
+.container2 { 
+display: block;
+width: 100%;
+margin-top: 40px;
+}
+
+/*General Information*/
+
+.container2 h2	{
+color: #333;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+
+.general_information p {
+text-align: justify;
+color: #333;
+font-size: 15px;
+margin-top: 0;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+/*Different information*/
+
+.different_information	{
+text-align: center;
+color: #333;
+width: 100%;
+margin-left: 170px;
+text-align: center;
+font-size: 10px;
+text-decoration: none;
+
+}
+
+.more_inform {
+width: 300px;
+float: left;
+font-size: 14px;
+margin-top: 10px
+}
+
+.more_inform img {
+width: 150px;
+height: 150px;
+border: 5px solid #FFE4B5;
+border-radius: 40px 50px ;
+margin-bottom: 20px;
+}
+
+.more_inform h3 {
+color: #333;
+background-color: #FFE4B5;
+border-radius: 20px 20px;
+font-size: 16px;
+margin-bottom: 15px;
+padding-bottom: 10px;
+text-align: center;
+}
+
+
+.more_inform p {
+background-color: #FFFFE0;
+color: #333;
+width: 300px;
+text-align: justify;
+}
+
+.more_inform:last-child {
+	float: right;
+	margin-right: 340px;
+}
+
+.more_inform:nth-child(2)	{
+	margin-left: 60px;
+}
+
+			/*Price*/
+
+.price {
+width: 100%;
+padding-top: 50px;
+clear: both;
+}
+
+			/*Price_Header*/
+
+.price_header	{
+display: block;
+margin: 10px auto;
+}
+
+.price_header h4 {
+color: #333;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+margin: 20px;
+}
+
+.price_header p {
+text-align: center;
+color: #333;
+font-size: 15px;
+margin-top: 0;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+			/*Price1 inform*/
+
+.price1 {
+width: 52.5%;
+max-width: 1200px;
+display: inline-block;
+float: left;
+margin-top: 30px;
+margin-left: 25%;
+}
+
+.price_inform::after	{
+content: "";
+display: table;
+clear: both;
+}
+
+.price1 .inform1  {
+margin: 0 auto;
+float: left;
+width: 170px;
+height: 300px;
+vertical-align: center;
+}
+
+.price1 .inform p {
+font-size: 15px;
+text-align: center;
+}
+
+.price1 .inform1 img {
+width: 100%;
+height: 250px;
+margin-bottom: 10px;
+}
+
+.price1 .inform1:first-child {
+margin-left:0 ;
+}
+
+.price1 .inform2	{
+float: left;
+width: 170px;
+height: 300px;
+vertical-align: center;
+}
+
+.price1 .inform2 p {
+width: 100%;
+font-size: 15px;
+text-align: center;
+}
+
+.price1 .inform2 img {
+width: 100%;
+height: 250px;
+margin-bottom: 10px;
+}
+
+.price1 .inform2:nth-child(2)	{
+margin-left: 100px;
+}
+
+.price1 .inform3	{
+margin: 0 auto;
+float: right;
+width: 170px;
+height: 300px;
+vertical-align: center;
+}	
+
+.price1 .inform p {
+width: 100%;
+font-size: 15px;
+text-align: center;	
+}
+
+.price1 .inform3 img {
+width: 100%;
+height: 250px;
+margin-bottom: 10px;
+}
+
+.price1 .inform3:last-child {
+margin-right: 0;
+}
+
+			/*Reviews*/
+
+.reviews 	{
+margin-top: 180px;
+overflow: hidden;
+width: 100%;
+max-width: 1360px;
+} 		
+
+.reviews_header {
+display: block;
+margin: 10px auto;
+clear: both;
+}
+
+.reviews_header h5 {
+color: #333;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+margin: 20px;
+}
+
+.reviews_header p {
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+}
+
+.reviews_inform1	{
+display: inline-block;
+width: 90%;
+margin-top: 20px;
+clear: both;
+margin-bottom: 50px;
+}		
+
+.reviews_photo1 	{
+margin-top:0;
+float: left;
+width: 45%;
+}
+
+.reviews_photo1 img	{
+width:50%;
+margin-left: 200px;
+border: 4px groove #FFA500;
+}
+
+.reviews_text1	{
+position: relative;
+color: #FFf ;
+padding-top: 50px;
+padding-right: 30px;
+float: right;
+width: 50%;
+font-size: 18px;
+font-weight: bold;
+line-height: 1.2;
+color: #333;
+text-shadow: 1px 1px 2px #FFA500;
+}
+
+.name1 {
+float:right;
+margin-right: 30px;
+color:#333;	
+}
+
+.reviews_inform2 {
+display: inline-block;
+width: 90%;
+margin-top: 20px;
+clear: both;
+margin-bottom: 50px;
+}		
+
+
+.reviews_photo2 {
+margin-top:0;
+float: left;
+width: 45%;
+}
+
+.reviews_photo2 img {
+width:50%;
+margin-left: 200px;
+border: 4px groove #FFA500;
+}
+
+.reviews_text2 {
+position: relative;
+color: #FFf ;
+padding-top: 20px;
+padding-right: 30px;
+float: right;
+width: 50%;
+font-size: 18px;
+font-weight: bold;
+line-height: 1.2;
+color: #333;
+text-shadow: 1px 1px 2px #FFA500;
+}
+
+.name2 {
+float:right;
+margin-right: 30px;
+color:#333;	
+}
+
+.reviews_inform3 {
+display: inline-block;
+width: 90%;
+margin-top: 20px;
+clear: both;
+margin-bottom: 50px;
+}		
+
+.reviews_photo3 {
+margin-top:0;
+float: left;
+width: 45%;
+}
+
+.reviews_photo3 img {
+width:50%;
+margin-left: 200px;
+border: 4px groove #FFA500;
+}
+
+.reviews_text3 {
+position: relative;
+color: #FFf ;
+padding-top: 20px;
+padding-right: 30px;
+float: right;
+width: 50%;
+font-size: 18px;
+font-weight: bold;
+line-height: 1.2;
+color: #333;
+text-shadow: 1px 1px 2px #FFA500;
+}
+
+.name3 {
+float:right;
+margin-right: 30px;
+color:#333;	
+}
+
+/*Contact*/
+
+.container4	{
+	width: 100%;
+	height: 40%;
+	max-width: 100%;
+	min-width: 50%;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.contact	{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+/*Header*/
+
+.contact_header h6 {
+	color: #333;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
+.contact_header p {
+	margin: 10px 150px;
+	font-size: 15px;
+	font-style: italic;
+	text-align: justify;
+}
+
+/*Inform*/
+
+.contact_inform {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	width: 100%;
+	min-width: 50%
+}
+
+/*Inform_left*/
+
+.contact_inform_left {
+	padding-left: 150px;
+	margin: 0;
+}
+
+.contact_inform_left h6 {
+	margin-bottom: 35px;
+	font-size: 15px;
+	text-decoration: none;
+	font-style: oblique;
+	text-transform: uppercase;
+}
+
+.form_field {
+	margin-bottom: 15px;
+	justify-content: right;
+
+}
+
+.form_control {
+	width: 80%;
+	height: 40px;
+	border: 2px solid #d9d9d9;
+	background-color: #ffffff;
+	font-size: 17px;
+	transition: all 0.5s;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: normal;
+}
+
+.form_control:focus {
+	border-color: #f39c12;
+}
+
+
+.form_field_icon {
+	font-size: 15px;
+	text-align: center;
+}
+
+textarea.form_control {
+	min-height: 80px;
+	resize: none;
+	padding-top: 10px;
+	letter-spacing: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	height: 42px;
+	padding: 10px;
+	border: 2px solid silver;
+	background-color: transparent;
+	color: #333;
+	font-family: "Open Sans", "Montserrat", sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	background-color: #f39c12;
+	color: #333;
+	text-decoration: none;
+	border-color: #f39c12;
+}
+/*Inform-right*/
+
+.contact_inform_right {
+ 	padding-right: 150px;
+ 	margin: 0;
+}
+
+.contact_inform_right h6 {
+ 	text-align: center;
+}
+.contact_inform_right p {
+ 	text-align: center;
+}
+
+.contact_inform_right1 {
+	text-align: justify;
+
+}
+
+.contact_inform_items	{
+	list-style: none;
+	text-align: justify;
+}
+
+.contact_inform_item {
+	text-decoration: none;
+	margin: 5px;
+}
+
+.contact_inform_right a {
+	text-decoration: none;
+	color: #0d0d0d;
+}
+
+.contact_inform_right a:hover {
+	text-decoration: underline;
+	color: #333;
+	font-weight: 600;
+}
+
+.contact_inform_right p {
+	margin-bottom: 35px;
+}
+
+.contact_inform_right h6 {
+	margin-bottom: 35px;
+	font-size: 15px;
+	text-decoration: none;
+	font-style: oblique;
+	text-transform: uppercase;
+}
+
+.contact_inform_icon {
+	margin-left:0;
+	width: 24px;
+	height: 24px;
+	border: 2px solid #f39c12;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	margin-right: 5px;
+}
