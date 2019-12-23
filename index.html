@@ -8,6 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="stylesheet" href="../Caucasianhoney/Style1.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="../Caucasianhoney/font-awesome-4.7.0/css/font-awesome.min.css">
 	<style>
 		html {overflow-x: hidden;}
 	</style>
@@ -24,20 +25,23 @@
 						<img src="img/Logo.jpg">
 					</div>
 						<nav>
-							<ul class="menu">
-								<li class="nav" id="">
-									<a href="#basic">
-									Основная информация</a>
-								</li>
-								<li class="nav" id="">
-									<a 	href="#price">Стоимость продукта по весовым категориям</a>
-								</li>	
-								<li class="nav" id="">	
-									<a 	 href="#reviews">Отзывы</a>
-								</li>
-								<li>
-									<a class="nav" 	href="#">Контакты</a>
-								</li>				
+							<div class="navmenu">
+								<ul class="menu">
+									<li class="nav" id="">
+										<a href="#basic">
+										Основная информация</a>
+									</li>
+									<li class="nav" id="">
+										<a 	href="#price">Стоимость продукта по весовым категориям</a>
+									</li>	
+									<li class="nav" id="">	
+										<a 	 href="#reviews">Отзывы</a>
+									</li>
+									<li class="nav" id="">
+										<a 	href="#contact">Контакты</a>
+									</li>
+								</ul>
+							</div>						
 							</nav>
 					</div>
 				</div>
@@ -126,25 +130,24 @@
 			</div>		
 		</section>				
 			
-				<!-- Reviews -->
+				<!-- Отзывы -->
 
 		<section>
 				<div class="reviews" id="reviews">
-
 					<div class="container3">
 						<div class="reviews_header">
 							<h5>Отзывы
 							</h5>
-							<p>Мы всегда делимся впечатлениями клиентов от потребления нашей продукции с вами
-							</p>
+							<p><i>Мы всегда делимся впечатлениями клиентов от потребления нашей продукции с вами
+							</i></p>
 						</div>	
 						<div class="reviews_inform1">	
 							<div class="reviews_photo1">
 								<img  src="img\consumer1.jpg">
 							</div>
-							<div class="reviews_text1">	
+							<div class="reviews_text1 clearfix">	
 								<q>Спасибо большое за вкусный мёд. Мама говорит, что я сладкоежка, а мне кажется, что я просто люблю полезные лакомства.</q>
-								<br><br><br><span class="name1">Женя</span>
+								<br><br><br><span class="name1"><q>Женя</q></span>
 							</div>
 						</div>
 						<div class="reviews_inform2">
@@ -153,7 +156,7 @@
 							</div>
 						<div class="reviews_text2">
 							<q>Попробовали Цветочный Мёд! Он очень очень вкусный! Одним словом — Шикарный мёд! В меру густой, как я люблю😊, но и не жидкий! Этот мёдик ели даже дети, что бывает крайне редко! Чай с мёдом и блинчики с мёдом — то что нужно, особенно осенью🤗! Спасибо Вам за отличный 🍯 мед! Рекомендуем от всей семьи 💗.</q>
-							<br><br><br><span class="name2">Светлана</span>
+							<br><br><br><span class="name2"><q>Светлана</q></span>
 						</div>
 					</div>	
 					<div class="reviews_inform3">
@@ -162,12 +165,83 @@
 						</div>
 						<div class="reviews_text3">
 							<q>Всегда любил мёд. Перепробовал множество сортов. Мне нравится больше всех липовый. Он и вкусный и очень полезный, укрепляет иммунитет и восстанавливает после длительных тренировок. Рекомендую всем по утрам натощак есть орехи с данным медом-заряд энергии на все утро.</q>
-							<br><br><br><span class="name3">
-							Алим
+							<br><br><br><span class="name3"><q>
+							Алим</q>
 							</span>
 						</div>
 					</div>	
+				</div>	
+		</section>
+					<!-- Контакты -->	
+		<section>
+			<div class="container4 clearfix" id="contact">
+				<div class="contact">	
+					<!-- Header -->
+					<div class="contact_header">
+						<h6>Контакты</h6>
+						<p>Нам очень важная обратная связь с нашими клиентами. Отзывы покупателей мотивируют нас улучшать инфраструктуру торгового сервиса и качество предоставления услуг. Будем очень признательны за отзыв о нашем продукте. Для получения полной информации о нашей компании и структуре предоставления услуг свяжитесь с нами по одному из контактов, представленных ниже.</p>
+					</div>
 
+					<!-- Inform -->
+					<div class="contact_inform">
+
+						<!-- Левое содержание -->
+						<div class="contact_inform_left"> 
+							<h6>Напишите нам</h6>
+
+							<div class="contact_form">
+								<form action="#">
+									<div class="form_field">
+										<input type="text" class="form_control" placeholder="Антон">
+										<span class="form_field_icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+									</div>
+									<div class="form_field">
+										<input type="email" class="form_control" placeholder="Электронная почта">
+										<span class="form_field_icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+									</div>
+									<div class="form_field">
+										<textarea class="form_control" placeholder="Сообщение"></textarea> 
+										<span class="form_field_icon"><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+									</div>	
+									<input type="submit" value="Отправить" class="btn btn--warning">
+								</form>
+							</div>
+						</div>
+									
+						<!-- Правое содержание -->
+						<div class="contact_inform_right">
+							<h6>Контактная информация</h6>
+							<p>Напишите Ваш вопрос, используя один из способов связи:</p>
+                        	<div class="contact_inform_right1">
+								<ul class="contact_inform_items">
+									<li class="contact_inform_item">
+										<span class="contact_inform_icon">
+											<i class="fa fa-map-marker" aria-hidden="true"></i>
+										</span>	
+										<span>	Россия,г. Тюмень, ул. 50 лет Октября 80, 625013.
+										</span>
+									</li>
+
+									<li class="contact_inform_item">
+										<span class="contact_inform_icon">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+										</span>
+											<a href="tel:79220493447"> +7(922)0493447</a>, <a href="79292642729">+7(929)2642729</a>
+									</li>	
+
+									<li class="contact_inform_item">
+										<span class="contact_inform_icon">
+											<i class="fa fa-envelope-open" aria-hidden="true"></i>
+										</span>
+											<a href="mailto: support.kavkazmed@gmail.com">support.kavkazmed@gmail.com</a>
+									</li>	
+								</ul>	
+							<div>	
+						</div>
+					</div>			
+				</div>		
+			</div>	
+		</section>
 
 
 
