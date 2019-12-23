@@ -34,8 +34,8 @@ width: 100%;
 min-width: 50%;
 height: 90%;
 background-size: 100%;
-background: url("../Caucasianhoney/img/fon1.jpg")  no-repeat center top;
-margin: 0 auto; 
+background: url("C:/Users/Apa6/Desktop/Кавказский высокогорный мед/img/fon1.jpg") no-repeat center top;
+margin: 0 auto;
 padding-bottom: 50px;
 }
  
@@ -76,9 +76,6 @@ padding-right: 40px;
 display: block;
 }
 
-.navmenu	{
-}
-
 .menu	{
 display: block;
 padding-right: 0;
@@ -100,12 +97,12 @@ float: left;
 color: #f5efe3;
 text-decoration: none;
 text-transform: none;
+
 line-height: 1.1;
 text-align: justify;
-transition: opacity .3s linear;
+transition: opacity .1s linear;
 }
 .menu a:hover {
-transition: all .5s;
 color: #D2691E;
 opacity: 1;
 }
@@ -405,36 +402,30 @@ text-decoration: none;
 
 .reviews_inform1	{
 display: inline-block;
-width: 90%;
-margin-top: 20px;
-clear: both;
-margin-bottom: 50px;
+width: 100%;
+background: rgba(255, 165, 0, 0.8);
+background-size: 100%;
 }		
 
 .reviews_photo1 	{
-margin-top:0;
 float: left;
 width: 45%;
 }
 
 .reviews_photo1 img	{
-width:50%;
-margin-left: 200px;
-border: 4px groove #FFA500;
+width:100%;
 }
 
 .reviews_text1	{
-position: relative;
 color: #FFf ;
-padding-top: 50px;
+padding-top: 12.5%;
 padding-right: 30px;
 float: right;
 width: 50%;
 font-size: 18px;
 font-weight: bold;
 line-height: 1.2;
-color: #333;
-text-shadow: 1px 1px 2px #FFA500;
+color: #f5efe3;
 }
 
 .name1 {
@@ -445,37 +436,30 @@ color:#333;
 
 .reviews_inform2 {
 display: inline-block;
-width: 90%;
-margin-top: 20px;
-clear: both;
-margin-bottom: 50px;
-}		
-
+width: 100%;
+background: rgba(255, 165, 0, 0.8);
+background-size: 100%;
+}
 
 .reviews_photo2 {
-margin-top:0;
 float: left;
 width: 45%;
 }
 
 .reviews_photo2 img {
-width:50%;
-margin-left: 200px;
-border: 4px groove #FFA500;
+width: 100%;
 }
 
 .reviews_text2 {
-position: relative;
 color: #FFf ;
-padding-top: 20px;
+padding-top: 10%;
 padding-right: 30px;
 float: right;
 width: 50%;
 font-size: 18px;
 font-weight: bold;
 line-height: 1.2;
-color: #333;
-text-shadow: 1px 1px 2px #FFA500;
+color: #f5efe3;
 }
 
 .name2 {
@@ -486,222 +470,34 @@ color:#333;
 
 .reviews_inform3 {
 display: inline-block;
-width: 90%;
-margin-top: 20px;
-clear: both;
-margin-bottom: 50px;
-}		
+width: 100%;
+background: rgba(255, 165, 0, 0.8);
+background-size: 100%;
+}
 
 .reviews_photo3 {
-margin-top:0;
 float: left;
 width: 45%;
 }
 
 .reviews_photo3 img {
-width:50%;
-margin-left: 200px;
-border: 4px groove #FFA500;
+width: 100%;
 }
 
 .reviews_text3 {
-position: relative;
 color: #FFf ;
-padding-top: 20px;
+padding-top: 10%;
 padding-right: 30px;
 float: right;
 width: 50%;
 font-size: 18px;
 font-weight: bold;
 line-height: 1.2;
-color: #333;
-text-shadow: 1px 1px 2px #FFA500;
+color: #f5efe3;
 }
 
 .name3 {
 float:right;
 margin-right: 30px;
 color:#333;	
-}
-
-/*Contact*/
-
-.container4	{
-	width: 100%;
-	height: 40%;
-	max-width: 100%;
-	min-width: 50%;
-	margin-top: 10px;
-	overflow: hidden;
-	margin-bottom: 100px;
-}
-
-.contact	{
-	width: 100%;
-	position: relative;
-	text-align: center;
-}
-
-/*Header*/
-
-.contact_header h6 {
-	color: #333;
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 20px;
-}
-
-.contact_header p {
-	margin: 10px 150px;
-	font-size: 15px;
-	font-style: italic;
-	text-align: justify;
-}
-
-/*Inform*/
-
-.contact_inform {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	width: 100%;
-	min-width: 50%
-}
-
-/*Inform_left*/
-
-.contact_inform_left {
-	padding-left: 150px;
-	margin: 0;
-}
-
-.contact_inform_left h6 {
-	margin-bottom: 35px;
-	font-size: 15px;
-	text-decoration: none;
-	font-style: oblique;
-	text-transform: uppercase;
-}
-
-.form_field {
-	margin-bottom: 15px;
-	justify-content: right;
-
-}
-
-.form_control {
-	width: 80%;
-	height: 40px;
-	border: 2px solid #d9d9d9;
-	background-color: #ffffff;
-	font-size: 17px;
-	transition: all 0.5s;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: normal;
-}
-
-.form_control:focus {
-	border-color: #f39c12;
-}
-
-
-.form_field_icon {
-	font-size: 15px;
-	text-align: center;
-}
-
-textarea.form_control {
-	min-height: 80px;
-	resize: none;
-	padding-top: 10px;
-	letter-spacing: normal;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.btn {
-	display: inline-block;
-	vertical-align: middle;
-	height: 42px;
-	padding: 10px;
-	border: 2px solid silver;
-	background-color: transparent;
-	color: #333;
-	font-family: "Open Sans", "Montserrat", sans-serif;
-	font-size: 17px;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-decoration: none;
-	transition: all 0.5s;
-}
-
-.btn:hover {
-	background-color: #f39c12;
-	color: #333;
-	text-decoration: none;
-	border-color: #f39c12;
-}
-/*Inform-right*/
-
-.contact_inform_right {
- 	padding-right: 150px;
- 	margin: 0;
-}
-
-.contact_inform_right h6 {
- 	text-align: center;
-}
-.contact_inform_right p {
- 	text-align: center;
-}
-
-.contact_inform_right1 {
-	text-align: justify;
-
-}
-
-.contact_inform_items	{
-	list-style: none;
-	text-align: justify;
-}
-
-.contact_inform_item {
-	text-decoration: none;
-	margin: 5px;
-}
-
-.contact_inform_right a {
-	text-decoration: none;
-	color: #0d0d0d;
-}
-
-.contact_inform_right a:hover {
-	text-decoration: underline;
-	color: #333;
-	font-weight: 600;
-}
-
-.contact_inform_right p {
-	margin-bottom: 35px;
-}
-
-.contact_inform_right h6 {
-	margin-bottom: 35px;
-	font-size: 15px;
-	text-decoration: none;
-	font-style: oblique;
-	text-transform: uppercase;
-}
-
-.contact_inform_icon {
-	margin-left:0;
-	width: 24px;
-	height: 24px;
-	border: 2px solid #f39c12;
-	border-radius: 50%;
-	align-items: center;
-	justify-content: center;
-	display: inline-flex;
-	margin-right: 5px;
 }
