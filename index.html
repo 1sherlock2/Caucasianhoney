@@ -1,4 +1,5 @@
-<html><head>
+<html>
+<head>
 	<title>Мед в Тюмени</title>
 		<meta charset="utf-8">
 		<meta name="key" content="мед,мёд,тюмень,натуральный,кавказский,высокогорный">
@@ -7,6 +8,14 @@
 		<link rel="stylesheet" href="../Caucasianhoney/Style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap&amp;subset=cyrillic" rel="stylesheet">
 		<link rel="stylesheet" href="../Caucasianhoney/font-awesome-4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+		function sendMail() {
+			var link = "mailto:caucas.appeals@yandex.ru"
+					 + "&subject=" + escape("This is my subject")
+					 + "&body=" + escape(document.getElementById('myText').value);
+			window.location.href = link;
+		}
+	</script>	
 	<style>
 		html {overflow-x: hidden;}
 	</style>
@@ -188,20 +197,20 @@
 							<h6>Напишите нам</h6>
 
 							<div class="contact_form">
-								<form action="#">
+								<form action="javascript:void(0);" onsubmit="send_form;" id="forma" >
 									<div class="form_field">
-										<input type="text" class="form_control" placeholder="Антон">
+										<input type="text"  name="name" class="form_control" placeholder="Антон">
 										<span class="form_field_icon"><i class="fa fa-user" aria-hidden="true"></i></span>
 									</div>
 									<div class="form_field">
-										<input type="email" class="form_control" placeholder="Электронная почта">
+										<input type="text" name="email"  class="form_control" placeholder="Электронная почта">
 										<span class="form_field_icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
 									</div>
 									<div class="form_field">
-										<textarea class="form_control" placeholder="Сообщение"></textarea> 
+										<textarea type="text"  id="myText" name="message" class="form_control" placeholder="Сообщение"></textarea> 
 										<span class="form_field_icon"><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
 									</div>	
-									<input type="submit" value="Отправить" class="btn btn--warning">
+									<input  onclick="sendMail() return false" type="submit" value="Отправить" class="btn btn--warning">
 								</form>
 							</div>
 						</div>
@@ -231,7 +240,7 @@
 										<span class="contact_inform_icon">
 											<i class="fa fa-envelope-open" aria-hidden="true"></i>
 										</span>
-											<a href="mailto: support.kavkazmed@gmail.com">support.kavkazmed@gmail.com</a>
+											<a href="mailto: caucas.appeals@yandex.ru">caucas.appeals@yandex.ru</a>
 									</li>	
 								</ul>	
 							<div>	
@@ -242,6 +251,25 @@
 		</div></div></section>
 
 
+                    <!-- Карта -->
+
+		<section id="map"> 
+			<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A001eaff11b7625e02e030679037a94107fc7db0932815eb40a6fd3f45d2204ec&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+		</section>
+		
+		<footer class="footer"> 
+			<div class="footer_content">
+				<p class="footer_content_text">&copy; Tyumen 2020, All Right Reserves / Designed by Apa6 </p>
+			</div>
+			<div class="social">
+				<a href="#" class="social_link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#" class="social_link"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				<a href="#" class="social_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>	
+		</footer>
+	</div>		
+</body>
+</html>
 
 
 
@@ -250,10 +278,13 @@
 
 
 
-						</div>
+
+
+
+						
 						
 						
 
 				
 			
-		</body></html>
+		
